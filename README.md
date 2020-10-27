@@ -9,7 +9,7 @@ strong supervision. These approaches performed generally well on modifications w
 base-resolution data, but behave problematic for modifications with only low-resolution
 data, e.g., ac4C and hm5C.
 
-Results: We propose WeakRM, the first weakly supervised learning framework for predicting
+Results: WeakRM is the first weakly supervised learning framework for predicting
 RNA modifications from low-resolution epitranscriptome datasets, such as, those
 generated from acRIP-seq and hMeRIP-seq. Evaluations on three independent datasets
 (corresponding to three different RNA modification types and their sequencing technologies)
