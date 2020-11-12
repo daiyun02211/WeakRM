@@ -20,4 +20,4 @@ factor binding site prediction. Additionally, our approach captured motifs that 
 with existing knowledge, and visualization of the predicted modification-containing
 regions unveiled the potentials of detecting RNA modifications with improved resolution.
 ## Illustration of the proposed framework
-![image](https://github.com/daiyun02211/WeakRM/blob/main/Img/net.pdf)
+![image](https://github.com/daiyun02211/WeakRM/blob/main/Img/net.jpg)
