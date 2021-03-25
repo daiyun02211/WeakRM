@@ -19,6 +19,12 @@ genomic sequences, such as, WSCNN, which was originally designed for transcripti
 factor binding site prediction. Additionally, our approach captured motifs that are consistent
 with existing knowledge, and visualization of the predicted modification-containing
 regions unveiled the potentials of detecting RNA modifications with improved resolution.
+## Requirements
+-Python 3.x (3.8.8)
+-Tensorflow(-gpu) 2.3.2
+-Numpy 1.18.5
+-scikit-learn 0.24.1
+-Argparse 1.4.0
 ## Installation
 Just clone this repository as follows.
 ```
