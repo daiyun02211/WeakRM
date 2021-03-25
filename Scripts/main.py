@@ -8,7 +8,7 @@ from utils import create_folder, str2bool
 parser = argparse.ArgumentParser(description="Train and evaluate WeakRM")
 parser.add_argument('--training', default=True, type=str2bool, nargs='?',
                     help='training or evaluation')
-parser.add_argument('--input_dir', default='../processed_data/m7G/upload/', type=str,
+parser.add_argument('--input_dir', default='../Data/m7G/processed/', type=str,
                     help='Path to processed data directory')
 parser.add_argument('--model_name', default='WeakRM', type=str,
                     help='One of [WeakRM, WeakRMLSTM, WSCNN, WSCNNLSTM]')
@@ -26,7 +26,7 @@ parser.add_argument('--stride', default='10', type=int,
                     help='Instance stride')
 parser.add_argument('--cropping', default=False, type=str2bool, nargs='?',
                     help='Activate ramdon cropping')
-parser.add_argument('--cp_dir', default='../processed_data/m7G/cv/cp_dir/',
+parser.add_argument('--cp_dir', default='../Data/m7G/processed/cp_dir/',
                     type=str, help='Path to checkpoint directory')
 parser.add_argument('--saving', default=False, type=str2bool, nargs='?',
                     help='Whether save weights during training')
