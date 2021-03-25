@@ -39,7 +39,8 @@ First convert sequence stokens into bags using one-hot encoding
 ```
 python ./Scripts/token2npy.py --input_dir='../Data/m7G/' --output_dir='../Data/m7G/processed/'
 ```
-``token2npy`` reads the token data from ``--input_dir`` and outputs bag data to ``--output_dir``
+``token2npy`` reads the token data from ``--input_dir`` and outputs bag data to ``--output_dir``  
+The instance length and stride can be adjusted by ``--len`` and ``--stride`` respectively.
 ## Illustration of the proposed framework
 <p align="center">
   <img src="https://github.com/daiyun02211/WeakRM/blob/main/Img/net.jpg" width="50%" align="middle"/>
