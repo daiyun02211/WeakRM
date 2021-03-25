@@ -19,6 +19,10 @@ genomic sequences, such as, WSCNN, which was originally designed for transcripti
 factor binding site prediction. Additionally, our approach captured motifs that are consistent
 with existing knowledge, and visualization of the predicted modification-containing
 regions unveiled the potentials of detecting RNA modifications with improved resolution.
+## Installation
+Just clone this repository as follows.
+$ git clone https://github.com/daiyun02211/WeakRM.git
+$ cd ./WeakRM
 ## Illustration of the proposed framework
 <p align="center">
   <img src="https://github.com/daiyun02211/WeakRM/blob/main/Img/net.jpg" width="50%" align="middle"/>
