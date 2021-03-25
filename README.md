@@ -35,6 +35,7 @@ git clone https://github.com/daiyun02211/WeakRM.git
 cd ./WeakRM
 ```
 ## Usage
+### Data pre-processing
 First convert sequence stokens into bags using one-hot encoding
 ```
 python ./Scripts/token2npy.py --input_dir='../Data/m7G/' --output_dir='../Data/m7G/processed/'
