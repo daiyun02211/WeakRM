@@ -1,10 +1,22 @@
 import os
+import argparse
 import numpy as np
 
 
 def create_folder(folder_path):
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
+
+
+def str2bool(verbose):
+    if isinstance(verbose, bool):
+        return verbose
+    if verbose.lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif verbose.lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+    else:
+        raise argparse.ArgumentTypeError('Expect boolean value')
 
 
 def embed(sequence, instance_len, instance_stride, zero_pad=True):
