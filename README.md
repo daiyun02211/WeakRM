@@ -21,10 +21,11 @@ with existing knowledge, and visualization of the predicted modification-contain
 regions unveiled the potentials of detecting RNA modifications with improved resolution.
 ## Requirements
 - Python 3.x (3.8.8)
-- Tensorflow(-gpu) 2.3.2
+- Tensorflow 2.3.2
 - Numpy 1.18.5
 - scikit-learn 0.24.1
 - Argparse 1.4.0
+- prettytable 2.1.0
 ## Installation
 Just clone this repository as follows.
 ```
