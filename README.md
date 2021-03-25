@@ -55,8 +55,10 @@ Further parameters include:
 - ``--cp_dir``: the path to checkpoint directory
 ### Evaluation
 ```
-python ./Scripts/main.py --training=False 
+python ./Scripts/main.py --training=False --input_dir='../Data/m7G/processed/' 
 ```
+when specifying ``--training`` as False, we can now evaluate the model performance  
+the default checkpoints are stored in ``'../Data/m7G/processed/cp_dir/'``
 ## Illustration of the proposed framework
 <p align="center">
   <img src="https://github.com/daiyun02211/WeakRM/blob/main/Img/net.jpg" width="50%" align="middle"/>
