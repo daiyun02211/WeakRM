@@ -19,6 +19,21 @@ genomic sequences, such as, WSCNN, which was originally designed for transcripti
 factor binding site prediction. Additionally, our approach captured motifs that are consistent
 with existing knowledge, and visualization of the predicted modification-containing
 regions unveiled the potentials of detecting RNA modifications with improved resolution.
+## Requirements
+- Python 3.x (3.8.8)
+- Tensorflow 2.3.2
+- Numpy 1.18.5
+- scikit-learn 0.24.1
+- Argparse 1.4.0
+- prettytable 2.1.0  
+  
+``WeakRM`` was tested on the versions listed above, so we do not guarantee that it will work on different versions.
+## Installation
+Just clone this repository as follows.
+```
+git clone https://github.com/daiyun02211/WeakRM.git
+cd ./WeakRM
+```
 ## Illustration of the proposed framework
 <p align="center">
   <img src="https://github.com/daiyun02211/WeakRM/blob/main/Img/net.jpg" width="50%" align="middle"/>
