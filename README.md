@@ -26,6 +26,7 @@ regions unveiled the potentials of detecting RNA modifications with improved res
 - scikit-learn 0.24.1
 - Argparse 1.4.0
 - prettytable 2.1.0  
+  
 ``WeakRM`` was tested on the versions listed above, so we do not guarantee that it will work on different versions.
 ## Installation
 Just clone this repository as follows.
