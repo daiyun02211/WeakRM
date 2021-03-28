@@ -55,7 +55,7 @@ Further parameters include:
 - ``--cp_dir``: the path to checkpoint directory
 ### Evaluation
 ```
-python ./Scripts/main.py --training=False --input_dir='./Data/m7G/processed/' 
+python ./Scripts/main.py --training=False --input_dir='./Data/m7G/processed/' --cp_dir='./Data/m7G/processed/cp_dir/'
 ```
 when specifying ``--training`` as False, we can now evaluate the model performance  
 the default checkpoints are stored in ``'./Data/m7G/processed/cp_dir/'``
