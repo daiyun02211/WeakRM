@@ -46,7 +46,7 @@ The instance length and stride can be adjusted by ``--len`` and ``--stride`` res
 ```
 python ./Scripts/main.py --training=False --input_dir='./Data/m7G/processed/' --cp_dir='./Data/m7G/processed/cp_dir/'
 ```
-When specifying ``--training`` as False, we can now evaluate the model performance.  
+When specifying ``--training`` as False, we can evaluate the model performance.  
 The default saved checkpoints are already stored in ``'./Data/m7G/processed/cp_dir/'``
 ### Training
 ```
