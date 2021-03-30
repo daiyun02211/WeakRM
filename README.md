@@ -36,29 +36,29 @@ cd ./WeakRM
 ```
 ## Usage
 ### Data pre-processing
-First convert sequence stokens into bags using one-hot encoding
+First convert sequence stokens into bags using one-hot encoding:
 ```
 python ./Scripts/token2npy.py --input_dir='./Data/m7G/' --output_dir='./Data/m7G/processed/'
 ```
 ``token2npy`` reads the token data from ``--input_dir`` and outputs bag data to ``--output_dir``  
 The instance length and stride can be adjusted by ``--len`` and ``--stride`` respectively, default values are 50 and 10.
+### Evaluation
+```
+python ./Scripts/main.py --training=False --input_dir='./Data/m7G/processed/' --cp_dir='./Data/m7G/processed/cp_dir/'
+```
+When specifying ``--training`` as False, we can now evaluate the model performance.  
+The default saved checkpoints are already stored in ``'./Data/m7G/processed/cp_dir/'``
 ### Training
 ```
 python ./Scripts/main.py --training=True --input_dir='./Data/m7G/processed/'
 ```
-where ``--input_dir`` is the directory where the processed data is stored  
+where ``--input_dir`` is the directory where the processed data is stored.  
 Further parameters include:
 - ``--epoch``: the number of epoch with default 20
 - ``--lr_init``: the inital learning rate with default 1e-4
 - ``--lr_decay``: the decayed learning rate with default 1e-5
 - ``--saving``: whether save weights during training
 - ``--cp_dir``: the path to checkpoint directory
-### Evaluation
-```
-python ./Scripts/main.py --training=False --input_dir='./Data/m7G/processed/' --cp_dir='./Data/m7G/processed/cp_dir/'
-```
-when specifying ``--training`` as False, we can now evaluate the model performance  
-the default checkpoints are stored in ``'./Data/m7G/processed/cp_dir/'``
 ## Illustration of the proposed framework
 <p align="center">
   <img src="https://github.com/daiyun02211/WeakRM/blob/main/Img/net.jpg" width="50%" align="middle"/>
