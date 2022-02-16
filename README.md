@@ -19,6 +19,9 @@ genomic sequences, such as, WSCNN, which was originally designed for transcripti
 factor binding site prediction. Additionally, our approach captured motifs that are consistent
 with existing knowledge, and visualization of the predicted modification-containing
 regions unveiled the potentials of detecting RNA modifications with improved resolution.
+
+See also:
+Huang D, Song B, Wei J, Su J, Coenen F, Meng J. Weakly supervised learning of RNA modifications from low-resolution epitranscriptome data. Bioinformatics. 2021;37(Suppl_1):i222-i230. doi:10.1093/bioinformatics/btab278
 ## Requirements
 - Python 3.x (3.8.8)
 - Tensorflow 2.3.2
@@ -29,7 +32,7 @@ regions unveiled the potentials of detecting RNA modifications with improved res
   
 ``WeakRM`` was tested on the versions listed above, so we do not guarantee that it will work on different versions.
 ## Installation
-Just clone this repository as follows.
+Please clone this repository as follows:
 ```
 git clone https://github.com/daiyun02211/WeakRM.git
 cd ./WeakRM
